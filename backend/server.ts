@@ -10,7 +10,7 @@ import { UploadHistoryRecord, SarAnalysisResponse, AqiIntelligenceResponse } fro
 
 export async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Middleware for parsing JSON with generous limits for satellite image data payloads
   app.use(express.json({ limit: '50mb' }));
