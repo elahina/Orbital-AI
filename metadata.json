@@ -1,0 +1,7 @@
+{
+  "name": "ORBITAL AI",
+  "description": "Spectral Earth Rendering & Fine-Grained Atmosphere Intelligence Platform combining SAR Image Colorization, Land Cover Segmentation, Disaster Detection, and AQI Downscaling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

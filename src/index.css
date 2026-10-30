@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(15, 20, 35, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  }
+
+  .glass-panel-hover {
+    transition: all 0.3s ease;
+  }
+  .glass-panel-hover:hover {
+    border-color: rgba(0, 240, 255, 0.4);
+    box-shadow: 0 12px 40px 0 rgba(0, 240, 255, 0.2), inset 0 0 16px 0 rgba(0, 240, 255, 0.1);
+  }
+
+  .glass-panel-green {
+    background: rgba(15, 25, 20, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(57, 255, 20, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8), inset 0 0 12px 0 rgba(57, 255, 20, 0.05);
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+  }
+
+  .neon-border {
+    border: 1px solid #00f0ff;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3), inset 0 0 10px rgba(0, 240, 255, 0.3);
+  }
+
+  .neon-border-green {
+    border: 1px solid #39ff14;
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.4), inset 0 0 10px rgba(57, 255, 20, 0.2);
+  }
+
+  .active-nav {
+    background: rgba(0, 240, 255, 0.1);
+    border-left: 4px solid #00f0ff;
+    color: #00f0ff;
+  }
+
+  .globe-container {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 240, 255, 0.15);
+    box-shadow: 0 0 120px rgba(0, 240, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .lat-line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 240, 255, 0.1);
+  }
+
+  .long-line {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: rgba(0, 240, 255, 0.1);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 240, 255, 0.1);
+  }
+
+  .hud-grid {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+  }
+
+  .hud-dots {
+    background-image: radial-gradient(rgba(0, 240, 255, 0.15) 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+}
+
+/* Custom futuristic scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050510;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.6);
+}
+
+/* Futuristic Earth Animation */
+@keyframes globe-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes globe-pulse {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+@keyframes radar-sweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-globe-spin {
+  animation: globe-spin 40s linear infinite;
+}
+
+.animate-radar-sweep {
+  animation: radar-sweep 4s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: globe-pulse 6s ease-in-out infinite;
+}

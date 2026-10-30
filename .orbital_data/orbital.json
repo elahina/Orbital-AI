@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "aqi-vs-1793365956760",
+    "module": "AQI",
+    "filename": "VIRTUAL_SENSOR_IDW_Haveri__Karnataka.json",
+    "timestamp": "2026-10-30 13:12:34 UTC",
+    "summary": "Estimated — Virtual Sensor | AQI 86 (Satisfactory) | PM2.5: 41.1 µg/m³",
+    "data": {
+      "id": "aqi-vs-1793365956760",
+      "city": "Haveri, Karnataka",
+      "coordinates": {
+        "lat": 14.7935,
+        "lng": 75.4045
+      },
+      "timestamp": "2026-10-30 13:12:34 UTC",
+      "currentPollutants": {
+        "aqi": 86,
+        "pm25": 41.1,
+        "no2": 31.6,
+        "co": 0.99,
+        "ozone": 30.9,
+        "pm10": 86.1,
+        "so2": 12,
+        "category": "Satisfactory",
+        "categoryColor": "#84cc16",
+        "prominentPollutant": "PM10"
+      },
+      "satelliteData": {
+        "sensor": "Copernicus CAMS Global Atmospheric Analysis (Sentinel-5P TROPOMI & MODIS/VIIRS Assimilated)",
+        "tropoNo2Column": 0.29,
+        "cloudFraction": 0,
+        "solarZenithAngle": 0
+      },
+      "groundStation": {
+        "source": "Virtual Sensor (IDW from Davanagere, Hubballi, Dharwad)",
+        "stationId": "VIRTUAL_IDW_3STN",
+        "distanceKm": 66.6,
+        "confidence": 78.9
+      },
+      "downscaling": {
+        "model": "Not Applicable — Virtual Sensor Point Estimate",
+        "resolution": "Municipality Centroid (IDW Triangulation)",
+        "riskZoneDetected": false,
+        "highRiskZoneSummary": "Estimated — Virtual Sensor; Not a Direct Measurement",
+        "safeZoneSummary": "Nearest official CPCB station: Devaraj Urs Badavane CAAQMS - KSPCB / CPCB (66.6 km)",
+        "grid": []
+      },
+      "forecast": {
+        "model": "Not Applicable — Virtual Sensor Mode",
+        "points": []
+      },
+      "isVirtualSensor": true,
+      "virtualSensor": {
+        "status": "ESTIMATED",
+        "disclaimerLabel": "Estimated — Virtual Sensor; Not a Direct Measurement",
+        "city": "Haveri",
+        "state": "Karnataka",
+        "coordinates": {
+          "lat": 14.7935,
+          "lng": 75.4045
+        },
+        "evaluatedAt": "2026-10-30 13:12:34 UTC",
+        "eligibilityChecks": {
+          "sufficientStations": true,
+          "withinValidatedDistance": true,
+          "validTimestamps": true,
+          "cpcbMinimumPollutantsMet": true,
+          "details": "All 3 reference CPCB stations lie within the validated ≤ 350 km airshed domain (d₁ = 66.6 km, d₃ = 85.4 km)."
+        },
+        "estimatedSubIndices": {
+          "pm25": 68,
+          "pm10": 86,
+          "no2": 40,
+          "co": 50,
+          "ozone": 31
+        },
+        "nearbyStations": [
+          {
+            "stationKey": "davanagere",
+            "stationId": "KA_DVG_DEVARAJ_01",
+            "stationName": "Devaraj Urs Badavane CAAQMS - KSPCB / CPCB",
+            "cityName": "Davanagere, Karnataka",
+            "lat": 14.4644,
+            "lng": 75.9218,
+            "distanceKm": 66.6,
+            "bearingDeg": 123,
+            "compassDirection": "ESE",
+            "idwWeight": 0.3989,
+            "idwWeightPercent": 39.9,
+            "observationTime": "2026-10-30 13:12:34 UTC",
+            "readings": {
+              "aqi": 87,
+              "category": "Satisfactory",
+              "categoryColor": "#84cc16",
+              "pm25": 41,
+              "pm10": 86.5,
+              "no2": 31.2,
+              "co": 0.98,
+              "ozone": 31
+            }
+          },
+          {
+            "stationKey": "hubballi",
+            "stationId": "KA_HUB_DESHPANDE_01",
+            "stationName": "Deshpande Nagar CAAQMS - KSPCB / CPCB",
+            "cityName": "Hubballi, Karnataka",
+            "lat": 15.3647,
+            "lng": 75.124,
+            "distanceKm": 70.3,
+            "bearingDeg": 335,
+            "compassDirection": "NNW",
+            "idwWeight": 0.3582,
+            "idwWeightPercent": 35.8,
+            "observationTime": "2026-10-30 13:12:34 UTC",
+            "readings": {
+              "aqi": 92,
+              "category": "Satisfactory",
+              "categoryColor": "#84cc16",
+              "pm25": 44.2,
+              "pm10": 92.4,
+              "no2": 34.8,
+              "co": 1.08,
+              "ozone": 32.1
+            }
+          },
+          {
+            "stationKey": "dharwad",
+            "stationId": "KA_DWD_KALABHAVAN_01",
+            "stationName": "Kalabhavan CAAQMS - KSPCB / CPCB",
+            "cityName": "Dharwad, Karnataka",
+            "lat": 15.4589,
+            "lng": 75.0078,
+            "distanceKm": 85.4,
+            "bearingDeg": 330,
+            "compassDirection": "NNW",
+            "idwWeight": 0.2429,
+            "idwWeightPercent": 24.3,
+            "observationTime": "2026-10-30 13:12:34 UTC",
+            "readings": {
+              "aqi": 76,
+              "category": "Satisfactory",
+              "categoryColor": "#84cc16",
+              "pm25": 36.5,
+              "pm10": 76,
+              "no2": 27.4,
+              "co": 0.86,
+              "ozone": 29
+            }
+          }
+        ],
+        "satelliteObservations": {
+          "status": "AVAILABLE",
+          "sourceSummary": "Copernicus CAMS Global Atmospheric Analysis (Sentinel-5P TROPOMI & MODIS/VIIRS Assimilated)",
+          "usedInNumericalPrediction": false,
+          "items": [
+            {
+              "key": "no2_satellite",
+              "label": "Atmospheric NO₂ (Sentinel-5P Assimilated)",
+              "available": true,
+              "value": 6.9,
+              "displayValue": "6.9 µg/m³ (3.7 ppb)",
+              "unit": "µg/m³",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Copernicus CAMS / Sentinel-5P TROPOMI Assimilation",
+              "usedInNumericalPrediction": false
+            },
+            {
+              "key": "aod_550",
+              "label": "Aerosol Optical Depth (550 nm)",
+              "available": true,
+              "value": 0.29,
+              "displayValue": "0.29",
+              "unit": "AOD (unitless)",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Copernicus CAMS / MODIS-VIIRS Aerosol Product",
+              "usedInNumericalPrediction": false
+            },
+            {
+              "key": "dust_aerosol",
+              "label": "Mineral Dust Aerosol",
+              "available": true,
+              "value": 8,
+              "displayValue": "8 µg/m³",
+              "unit": "µg/m³",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Copernicus CAMS Dust Transport Layer",
+              "usedInNumericalPrediction": false
+            }
+          ],
+          "missingInputs": []
+        },
+        "weatherReadings": {
+          "status": "AVAILABLE",
+          "sourceSummary": "Open-Meteo / ECMWF IFS Meteorological Analysis",
+          "usedInNumericalPrediction": false,
+          "windDirectionDeg": 233,
+          "windSpeedMs": 4.11,
+          "items": [
+            {
+              "key": "wind_speed",
+              "label": "Wind Speed (10 m)",
+              "available": true,
+              "value": 4.11,
+              "displayValue": "4.11 m/s (14.8 km/h)",
+              "unit": "m/s",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Open-Meteo / ECMWF IFS Meteorological Analysis",
+              "usedInNumericalPrediction": false
+            },
+            {
+              "key": "wind_direction",
+              "label": "Wind Direction (10 m)",
+              "available": true,
+              "value": 233,
+              "displayValue": "233° (SW)",
+              "unit": "°",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Open-Meteo / ECMWF IFS Meteorological Analysis",
+              "usedInNumericalPrediction": false
+            },
+            {
+              "key": "humidity",
+              "label": "Relative Humidity (2 m)",
+              "available": true,
+              "value": 60,
+              "displayValue": "60%",
+              "unit": "%",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Open-Meteo / ECMWF IFS Meteorological Analysis",
+              "usedInNumericalPrediction": false
+            },
+            {
+              "key": "pbl_height",
+              "label": "Planetary Boundary-Layer Height",
+              "available": true,
+              "value": 240,
+              "displayValue": "240 m",
+              "unit": "m",
+              "timestamp": "2026-10-30 13:00:00 UTC",
+              "source": "Open-Meteo / ECMWF IFS Meteorological Analysis",
+              "usedInNumericalPrediction": false
+            }
+          ],
+          "missingInputs": []
+        },
+        "estimationMethod": {
+          "name": "3-Station Inverse Distance Weighting (IDW, p = 2) → CPCB National AQI Standard",
+          "formulaSummary": "Ĉ_pollutant(x₀) = Σ [wᵢ · C_pollutant(xᵢ)] / Σ wᵢ, where wᵢ = 1 / max(dᵢ, 1 km)^2 across the k = 3 nearest CPCB stations; AQI = max(I_PM2.5, I_PM10, I_NO2, I_CO, I_O3).",
+          "concentrationFirstNote": "Individual criteria pollutant concentrations (PM2.5, PM10, NO₂, CO, O₃) are spatially interpolated first; the official CPCB piecewise-linear breakpoint sub-index formula is applied only after concentration estimation.",
+          "externalInputsRoleNote": "Satellite atmospheric observations and meteorological weather readings are retrieved live and displayed separately for environmental context. They do not modify the numerical concentration weights because live atmospheric model timestamps are asynchronous with the reference CPCB station readings and directional wind-weighting did not reduce out-of-sample error during calibration.",
+          "steps": [
+            "Resolved verified WGS84 coordinates for Haveri, Karnataka (14.7935°N, 75.4045°E).",
+            "Selected the 3 nearest suitable CPCB monitoring stations and verified airshed proximity bounds (d₁ ≤ 260 km, d₃ ≤ 350 km).",
+            "Interpolated PM2.5, PM10, NO₂, CO, and O₃ concentrations using validated IDW exponent p = 2.",
+            "Calculated pollutant sub-indices and overall AQI using the CPCB Indian AQI breakpoint standard (minimum 3 pollutants including PM2.5 or PM10)."
+          ]
+        },
+        "uncertainty": {
+          "available": true,
+          "method": "Split-Conformal Prediction Interval (calibrated on 72-station multi-date training residuals, validated on 71 held-out stations)",
+          "nominalCoveragePct": 80,
+          "empiricalCoveragePct": 78.9,
+          "halfWidthAqi": 19,
+          "lowerAqi": 67,
+          "upperAqi": 105,
+          "donorAqiSpread": 16,
+          "nearestStationDistanceKm": 66.6
+        },
+        "validationSummary": {
+          "methodName": "Concentration-First Inverse Distance Weighting (IDW, k=3, p=2) + CPCB Breakpoint Standard",
+          "idwPower": 2,
+          "donorCount": 3,
+          "maxNearestDistanceKm": 260,
+          "maxThirdStationDistanceKm": 350,
+          "trainingStationsCount": 72,
+          "trainingDatesCount": 3,
+          "trainingEvaluationsCount": 213,
+          "heldOutStationsCount": 71,
+          "heldOutDatesCount": 5,
+          "heldOutEvaluationsCount": 355,
+          "heldOutRejectedIsolatedCount": 0,
+          "aqiMae": 24.99,
+          "aqiRmse": 58.23,
+          "aqiMedianAe": 8,
+          "aqiR2": 0.743,
+          "pm25Mae": 9.91,
+          "pm25Rmse": 17.68,
+          "categoryExactMatchPct": 74.6,
+          "conformalTargetCoveragePct": 80,
+          "conformalEmpiricalCoveragePct": 78.9,
+          "conformalQuantileScore": 14.75
+        }
+      }
+    }
+  },
+  {
+    "id": "aqi-1793365938527",
+    "module": "AQI",
+    "filename": "TROPOMI_L2_NO2_New_Delhi__India.nc",
+    "timestamp": "2026-10-30 13:12:18 UTC",
+    "summary": "AQI 322 (Very Poor) | PM2.5: 148.5 µg/m³ | NO2: 74.2 ppb",
+    "data": {
+      "id": "aqi-1793365938527",
+      "city": "New Delhi, India",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "timestamp": "2026-10-30 13:12:18 UTC",
+      "currentPollutants": {
+        "aqi": 322,
+        "pm25": 148.5,
+        "no2": 74.2,
+        "co": 2.85,
+        "ozone": 48,
+        "pm10": 265,
+        "so2": 12,
+        "category": "Very Poor",
+        "categoryColor": "#ef4444",
+        "prominentPollutant": "PM2.5"
+      },
+      "satelliteData": {
+        "sensor": "Sentinel-5P / TROPOMI (Offline Level-2 NO2 Product)",
+        "tropoNo2Column": 12.45,
+        "cloudFraction": 0.14,
+        "solarZenithAngle": 29.2
+      },
+      "groundStation": {
+        "source": "ITO Junction CAAQMS - DPCC / CPCB",
+        "stationId": "DL_ND_ITO_04",
+        "distanceKm": 2.8,
+        "confidence": 96.4
+      },
+      "downscaling": {
+        "model": "SRCNN / ESRGAN-based Atmosphere Super-Resolution (10km → 1km)",
+        "resolution": "10km Satellite → 1km Street-Level Grid",
+        "riskZoneDetected": true,
+        "highRiskZoneSummary": "High Risk Zone Detected in Anand Vihar Transport Hub & Industrial Perimeter (Peak PM2.5: 200 µg/m³)",
+        "safeZoneSummary": "Safe Zone: Lodhi Garden Green Sector (5.8 km South-West)",
+        "grid": [
+          {
+            "x": 0,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.179,
+            "pm25": 118,
+            "aqi": 293,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.189,
+            "pm25": 124.3,
+            "aqi": 304,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.199,
+            "pm25": 123.4,
+            "aqi": 303,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.209,
+            "pm25": 125,
+            "aqi": 304,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.219,
+            "pm25": 130,
+            "aqi": 308,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.229,
+            "pm25": 129.1,
+            "aqi": 307,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "lat": 28.6439,
+            "lng": 77.239,
+            "pm25": 114.9,
+            "aqi": 283,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.179,
+            "pm25": 137.4,
+            "aqi": 314,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.189,
+            "pm25": 146.1,
+            "aqi": 320,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.199,
+            "pm25": 147.9,
+            "aqi": 322,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.209,
+            "pm25": 150.8,
+            "aqi": 324,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.219,
+            "pm25": 154.5,
+            "aqi": 327,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.229,
+            "pm25": 150.9,
+            "aqi": 324,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "lat": 28.6339,
+            "lng": 77.239,
+            "pm25": 134.2,
+            "aqi": 311,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.179,
+            "pm25": 138.4,
+            "aqi": 314,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.189,
+            "pm25": 149.8,
+            "aqi": 323,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.199,
+            "pm25": 155.7,
+            "aqi": 328,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.209,
+            "pm25": 161.8,
+            "aqi": 332,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.219,
+            "pm25": 162.3,
+            "aqi": 333,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.229,
+            "pm25": 154.6,
+            "aqi": 327,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "lat": 28.6239,
+            "lng": 77.239,
+            "pm25": 135.3,
+            "aqi": 312,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.179,
+            "pm25": 132.3,
+            "aqi": 310,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.189,
+            "pm25": 145.1,
+            "aqi": 319,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.199,
+            "pm25": 154.1,
+            "aqi": 326,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.209,
+            "pm25": 170.6,
+            "aqi": 339,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.219,
+            "pm25": 160.7,
+            "aqi": 331,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.229,
+            "pm25": 149.8,
+            "aqi": 323,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "lat": 28.6139,
+            "lng": 77.239,
+            "pm25": 129.2,
+            "aqi": 307,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.179,
+            "pm25": 135,
+            "aqi": 312,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.189,
+            "pm25": 146.4,
+            "aqi": 320,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.199,
+            "pm25": 152.3,
+            "aqi": 325,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.209,
+            "pm25": 158.4,
+            "aqi": 330,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.219,
+            "pm25": 158.9,
+            "aqi": 330,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.229,
+            "pm25": 151.2,
+            "aqi": 324,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "lat": 28.6039,
+            "lng": 77.239,
+            "pm25": 131.9,
+            "aqi": 309,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.179,
+            "pm25": 136.9,
+            "aqi": 313,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.189,
+            "pm25": 145.6,
+            "aqi": 320,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.199,
+            "pm25": 147.4,
+            "aqi": 321,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.209,
+            "pm25": 150.3,
+            "aqi": 323,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.219,
+            "pm25": 154,
+            "aqi": 326,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.229,
+            "pm25": 150.4,
+            "aqi": 324,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "lat": 28.5939,
+            "lng": 77.239,
+            "pm25": 133.7,
+            "aqi": 311,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.179,
+            "pm25": 121.3,
+            "aqi": 301,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.189,
+            "pm25": 127.6,
+            "aqi": 306,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.199,
+            "pm25": 126.7,
+            "aqi": 305,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.209,
+            "pm25": 128.3,
+            "aqi": 307,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.219,
+            "pm25": 133.3,
+            "aqi": 310,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.229,
+            "pm25": 132.4,
+            "aqi": 310,
+            "riskLevel": "CRITICAL"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "lat": 28.5839,
+            "lng": 77.239,
+            "pm25": 118.2,
+            "aqi": 294,
+            "riskLevel": "CRITICAL"
+          }
+        ]
+      },
+      "forecast": {
+        "model": "Deep CNN-LSTM Temporal Forecaster (6-Hour Window)",
+        "points": [
+          {
+            "time": "+1h (07:42 pm)",
+            "aqi": 327,
+            "pm25": 154.4,
+            "no2": 77.2,
+            "confidenceUpper": 353,
+            "confidenceLower": 301
+          },
+          {
+            "time": "+2h (08:42 pm)",
+            "aqi": 330,
+            "pm25": 158.8,
+            "no2": 79.3,
+            "confidenceUpper": 356,
+            "confidenceLower": 304
+          },
+          {
+            "time": "+3h (09:42 pm)",
+            "aqi": 331,
+            "pm25": 160.4,
+            "no2": 80.1,
+            "confidenceUpper": 357,
+            "confidenceLower": 305
+          },
+          {
+            "time": "+4h (10:42 pm)",
+            "aqi": 330,
+            "pm25": 158.8,
+            "no2": 79.3,
+            "confidenceUpper": 356,
+            "confidenceLower": 304
+          },
+          {
+            "time": "+5h (11:42 pm)",
+            "aqi": 327,
+            "pm25": 154.4,
+            "no2": 77.2,
+            "confidenceUpper": 353,
+            "confidenceLower": 301
+          },
+          {
+            "time": "+6h (12:42 am)",
+            "aqi": 322,
+            "pm25": 148.5,
+            "no2": 74.2,
+            "confidenceUpper": 348,
+            "confidenceLower": 296
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "aqi-1793365935462",
+    "module": "AQI",
+    "filename": "TROPOMI_L2_NO2_Bengaluru__India.nc",
+    "timestamp": "2026-10-30 13:12:15 UTC",
+    "summary": "AQI 88 (Satisfactory) | PM2.5: 42.6 µg/m³ | NO2: 38.4 ppb",
+    "data": {
+      "id": "aqi-1793365935462",
+      "city": "Bengaluru, India",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-10-30 13:12:15 UTC",
+      "currentPollutants": {
+        "aqi": 88,
+        "pm25": 42.6,
+        "no2": 38.4,
+        "co": 1.12,
+        "ozone": 31.5,
+        "pm10": 88,
+        "so2": 12,
+        "category": "Satisfactory",
+        "categoryColor": "#84cc16",
+        "prominentPollutant": "PM10"
+      },
+      "satelliteData": {
+        "sensor": "Sentinel-5P / TROPOMI (Offline Level-2 NO2 Product)",
+        "tropoNo2Column": 4.82,
+        "cloudFraction": 0.14,
+        "solarZenithAngle": 29.2
+      },
+      "groundStation": {
+        "source": "BTM Layout CAAQMS - CPCB",
+        "stationId": "KA_BLR_BTM_01",
+        "distanceKm": 2.8,
+        "confidence": 96.4
+      },
+      "downscaling": {
+        "model": "SRCNN / ESRGAN-based Atmosphere Super-Resolution (10km → 1km)",
+        "resolution": "10km Satellite → 1km Street-Level Grid",
+        "riskZoneDetected": false,
+        "highRiskZoneSummary": "High Risk Zone Detected in Outer Ring Road / Silk Board Corridor (High Traffic Congestion) (Peak PM2.5: 58 µg/m³)",
+        "safeZoneSummary": "Safe Zone: Cubbon Park Botanical Reserve Canopy (4.2 km North)",
+        "grid": [
+          {
+            "x": 0,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5646,
+            "pm25": 39.6,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5746,
+            "pm25": 37.7,
+            "aqi": 62,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5846,
+            "pm25": 31.2,
+            "aqi": 51,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5946,
+            "pm25": 30.7,
+            "aqi": 50,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6046,
+            "pm25": 37.8,
+            "aqi": 62,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6146,
+            "pm25": 42.5,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6246,
+            "pm25": 36.4,
+            "aqi": 60,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5646,
+            "pm25": 50.8,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5746,
+            "pm25": 49.7,
+            "aqi": 83,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5846,
+            "pm25": 43.9,
+            "aqi": 73,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5946,
+            "pm25": 43.8,
+            "aqi": 73,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6046,
+            "pm25": 50.5,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6146,
+            "pm25": 54.5,
+            "aqi": 91,
+            "riskLevel": "MODERATE"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6246,
+            "pm25": 47.7,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5646,
+            "pm25": 46.2,
+            "aqi": 77,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5746,
+            "pm25": 45.8,
+            "aqi": 76,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5846,
+            "pm25": 41.3,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5946,
+            "pm25": 42.1,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6046,
+            "pm25": 47.8,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6146,
+            "pm25": 50.6,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6246,
+            "pm25": 43.1,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5646,
+            "pm25": 38.1,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5746,
+            "pm25": 38.1,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5846,
+            "pm25": 34.4,
+            "aqi": 57,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5946,
+            "pm25": 38.3,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6046,
+            "pm25": 41,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6146,
+            "pm25": 42.9,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6246,
+            "pm25": 35,
+            "aqi": 58,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5646,
+            "pm25": 42.8,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5746,
+            "pm25": 42.5,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5846,
+            "pm25": 37.9,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5946,
+            "pm25": 38.7,
+            "aqi": 64,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6046,
+            "pm25": 44.5,
+            "aqi": 74,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6146,
+            "pm25": 47.3,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6246,
+            "pm25": 39.7,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5646,
+            "pm25": 50.3,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5746,
+            "pm25": 49.2,
+            "aqi": 82,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5846,
+            "pm25": 43.4,
+            "aqi": 72,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5946,
+            "pm25": 43.4,
+            "aqi": 72,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6046,
+            "pm25": 50,
+            "aqi": 83,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6146,
+            "pm25": 54,
+            "aqi": 90,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6246,
+            "pm25": 47.2,
+            "aqi": 78,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5646,
+            "pm25": 42.9,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5746,
+            "pm25": 41,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5846,
+            "pm25": 34.5,
+            "aqi": 57,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5946,
+            "pm25": 34,
+            "aqi": 56,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6046,
+            "pm25": 41.1,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6146,
+            "pm25": 45.8,
+            "aqi": 76,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6246,
+            "pm25": 39.7,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          }
+        ]
+      },
+      "forecast": {
+        "model": "Deep CNN-LSTM Temporal Forecaster (6-Hour Window)",
+        "points": [
+          {
+            "time": "+1h (07:42 pm)",
+            "aqi": 73,
+            "pm25": 44.3,
+            "no2": 39.9,
+            "confidenceUpper": 79,
+            "confidenceLower": 67
+          },
+          {
+            "time": "+2h (08:42 pm)",
+            "aqi": 76,
+            "pm25": 45.6,
+            "no2": 41.1,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+3h (09:42 pm)",
+            "aqi": 76,
+            "pm25": 46,
+            "no2": 41.5,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+4h (10:42 pm)",
+            "aqi": 76,
+            "pm25": 45.6,
+            "no2": 41.1,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+5h (11:42 pm)",
+            "aqi": 73,
+            "pm25": 44.3,
+            "no2": 39.9,
+            "confidenceUpper": 79,
+            "confidenceLower": 67
+          },
+          {
+            "time": "+6h (12:42 am)",
+            "aqi": 71,
+            "pm25": 42.6,
+            "no2": 38.4,
+            "confidenceUpper": 77,
+            "confidenceLower": 65
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "aqi-1793365935453",
+    "module": "AQI",
+    "filename": "TROPOMI_L2_NO2_Bengaluru__India.nc",
+    "timestamp": "2026-10-30 13:12:15 UTC",
+    "summary": "AQI 88 (Satisfactory) | PM2.5: 42.6 µg/m³ | NO2: 38.4 ppb",
+    "data": {
+      "id": "aqi-1793365935453",
+      "city": "Bengaluru, India",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-10-30 13:12:15 UTC",
+      "currentPollutants": {
+        "aqi": 88,
+        "pm25": 42.6,
+        "no2": 38.4,
+        "co": 1.12,
+        "ozone": 31.5,
+        "pm10": 88,
+        "so2": 12,
+        "category": "Satisfactory",
+        "categoryColor": "#84cc16",
+        "prominentPollutant": "PM10"
+      },
+      "satelliteData": {
+        "sensor": "Sentinel-5P / TROPOMI (Offline Level-2 NO2 Product)",
+        "tropoNo2Column": 4.82,
+        "cloudFraction": 0.14,
+        "solarZenithAngle": 29.2
+      },
+      "groundStation": {
+        "source": "BTM Layout CAAQMS - CPCB",
+        "stationId": "KA_BLR_BTM_01",
+        "distanceKm": 2.8,
+        "confidence": 96.4
+      },
+      "downscaling": {
+        "model": "SRCNN / ESRGAN-based Atmosphere Super-Resolution (10km → 1km)",
+        "resolution": "10km Satellite → 1km Street-Level Grid",
+        "riskZoneDetected": false,
+        "highRiskZoneSummary": "High Risk Zone Detected in Outer Ring Road / Silk Board Corridor (High Traffic Congestion) (Peak PM2.5: 58 µg/m³)",
+        "safeZoneSummary": "Safe Zone: Cubbon Park Botanical Reserve Canopy (4.2 km North)",
+        "grid": [
+          {
+            "x": 0,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5646,
+            "pm25": 39.6,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5746,
+            "pm25": 37.7,
+            "aqi": 62,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5846,
+            "pm25": 31.2,
+            "aqi": 51,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.5946,
+            "pm25": 30.7,
+            "aqi": 50,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6046,
+            "pm25": 37.8,
+            "aqi": 62,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6146,
+            "pm25": 42.5,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "lat": 13.0016,
+            "lng": 77.6246,
+            "pm25": 36.4,
+            "aqi": 60,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5646,
+            "pm25": 50.8,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5746,
+            "pm25": 49.7,
+            "aqi": 83,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5846,
+            "pm25": 43.9,
+            "aqi": 73,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.5946,
+            "pm25": 43.8,
+            "aqi": 73,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6046,
+            "pm25": 50.5,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6146,
+            "pm25": 54.5,
+            "aqi": 91,
+            "riskLevel": "MODERATE"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "lat": 12.9916,
+            "lng": 77.6246,
+            "pm25": 47.7,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5646,
+            "pm25": 46.2,
+            "aqi": 77,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5746,
+            "pm25": 45.8,
+            "aqi": 76,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5846,
+            "pm25": 41.3,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.5946,
+            "pm25": 42.1,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6046,
+            "pm25": 47.8,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6146,
+            "pm25": 50.6,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "lat": 12.9816,
+            "lng": 77.6246,
+            "pm25": 43.1,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5646,
+            "pm25": 38.1,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5746,
+            "pm25": 38.1,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5846,
+            "pm25": 34.4,
+            "aqi": 57,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.5946,
+            "pm25": 38.3,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6046,
+            "pm25": 41,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6146,
+            "pm25": 42.9,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "lat": 12.9716,
+            "lng": 77.6246,
+            "pm25": 35,
+            "aqi": 58,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5646,
+            "pm25": 42.8,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5746,
+            "pm25": 42.5,
+            "aqi": 70,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5846,
+            "pm25": 37.9,
+            "aqi": 63,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.5946,
+            "pm25": 38.7,
+            "aqi": 64,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6046,
+            "pm25": 44.5,
+            "aqi": 74,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6146,
+            "pm25": 47.3,
+            "aqi": 79,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "lat": 12.9616,
+            "lng": 77.6246,
+            "pm25": 39.7,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5646,
+            "pm25": 50.3,
+            "aqi": 84,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5746,
+            "pm25": 49.2,
+            "aqi": 82,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5846,
+            "pm25": 43.4,
+            "aqi": 72,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.5946,
+            "pm25": 43.4,
+            "aqi": 72,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6046,
+            "pm25": 50,
+            "aqi": 83,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6146,
+            "pm25": 54,
+            "aqi": 90,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "lat": 12.9516,
+            "lng": 77.6246,
+            "pm25": 47.2,
+            "aqi": 78,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5646,
+            "pm25": 42.9,
+            "aqi": 71,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5746,
+            "pm25": 41,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5846,
+            "pm25": 34.5,
+            "aqi": 57,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.5946,
+            "pm25": 34,
+            "aqi": 56,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6046,
+            "pm25": 41.1,
+            "aqi": 68,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6146,
+            "pm25": 45.8,
+            "aqi": 76,
+            "riskLevel": "LOW"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "lat": 12.9416,
+            "lng": 77.6246,
+            "pm25": 39.7,
+            "aqi": 66,
+            "riskLevel": "LOW"
+          }
+        ]
+      },
+      "forecast": {
+        "model": "Deep CNN-LSTM Temporal Forecaster (6-Hour Window)",
+        "points": [
+          {
+            "time": "+1h (07:42 pm)",
+            "aqi": 73,
+            "pm25": 44.3,
+            "no2": 39.9,
+            "confidenceUpper": 79,
+            "confidenceLower": 67
+          },
+          {
+            "time": "+2h (08:42 pm)",
+            "aqi": 76,
+            "pm25": 45.6,
+            "no2": 41.1,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+3h (09:42 pm)",
+            "aqi": 76,
+            "pm25": 46,
+            "no2": 41.5,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+4h (10:42 pm)",
+            "aqi": 76,
+            "pm25": 45.6,
+            "no2": 41.1,
+            "confidenceUpper": 82,
+            "confidenceLower": 70
+          },
+          {
+            "time": "+5h (11:42 pm)",
+            "aqi": 73,
+            "pm25": 44.3,
+            "no2": 39.9,
+            "confidenceUpper": 79,
+            "confidenceLower": 67
+          },
+          {
+            "time": "+6h (12:42 am)",
+            "aqi": 71,
+            "pm25": 42.6,
+            "no2": 38.4,
+            "confidenceUpper": 77,
+            "confidenceLower": 65
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sar-1793365894670",
+    "module": "SAR",
+    "filename": "sar.jpg",
+    "timestamp": "2026-10-30 13:11:34 UTC",
+    "summary": "Land Cover: 26.8% Veg, 24.5% Water | No Significant Flood",
+    "data": {
+      "id": "sar-1793365894670",
+      "timestamp": "2026-10-30 13:11:34 UTC",
+      "filename": "sar.jpg",
+      "originalImage": "blob:http://localhost:3000/bcaefd86-6dde-4312-85ef-e37b439f6530",
+      "colorizedImage": "",
+      "segmentationMaskImage": "",
+      "gradCamHeatmapImage": "",
+      "landCover": {
+        "vegetation": 26.8,
+        "water": 24.5,
+        "buildings": 44.2,
+        "bareLand": 4.5,
+        "other": 0
+      },
+      "detections": [
+        {
+          "id": "st1",
+          "label": "Stadium_Dome_Arena (0.97)",
+          "type": "building",
+          "confidence": 0.97,
+          "box": [
+            32,
+            52,
+            65,
+            78
+          ]
+        },
+        {
+          "id": "hw1",
+          "label": "Coastal_Highway_Arterial (0.95)",
+          "type": "road",
+          "confidence": 0.95,
+          "box": [
+            10,
+            68,
+            92,
+            85
+          ]
+        },
+        {
+          "id": "ub1",
+          "label": "Commercial_Grid_Sector (0.94)",
+          "type": "building",
+          "confidence": 0.94,
+          "box": [
+            38,
+            28,
+            88,
+            55
+          ]
+        },
+        {
+          "id": "wb1",
+          "label": "Deep_Coastal_Basin (0.98)",
+          "type": "waterbody",
+          "confidence": 0.98,
+          "box": [
+            5,
+            18,
+            32,
+            62
+          ]
+        },
+        {
+          "id": "vg1",
+          "label": "Coastal_Canopy_Hills (0.93)",
+          "type": "forestry",
+          "confidence": 0.93,
+          "box": [
+            12,
+            5,
+            45,
+            25
+          ]
+        }
+      ],
+      "disaster": {
+        "flood": {
+          "detected": false,
+          "confidence": 12.8,
+          "areaKm2": 0,
+          "affectedPixelPercentage": 0,
+          "severity": "NONE",
+          "statusText": "No anomalous flood inundation detected. Water is strictly confined within coastal marine basin and regulated canal corridors.",
+          "datasetSource": "Sen1Floods11 (Sentinel-1 SAR)",
+          "thresholdApplied": 0.45
+        },
+        "urbanDestruction": {
+          "detected": false,
+          "confidence": 8.5,
+          "areaKm2": 0,
+          "severity": "NONE",
+          "statusText": "All structural alignments, geometric grids, and stadium trusses intact with strong coherent double-bounce signatures.",
+          "temporalStatus": "xBD damage verification active — regular infrastructure.",
+          "datasetSource": "xBD / SpaceNet"
+        },
+        "wildfire": {
+          "detected": false,
+          "confidence": 3.2,
+          "areaKm2": 0,
+          "severity": "NONE",
+          "statusText": "No thermal anomaly or smoke plume attenuation detected.",
+          "thermalReferenceSource": "NASA FIRMS MODIS/VIIRS Active Fire Layer"
+        }
+      },
+      "xaiInterpretation": {
+        "vegetation": "Coastal hills and tree canopies generate diffuse volume backscattering, translated into lush emerald-to-lime green hues with natural canopy micro-textures.",
+        "water": "Smooth bay and canal water bodies produce specular radar reflection away from the sensor (dark backscatter), rendered as deep sapphire blue with luminous turquoise coastal shallows.",
+        "buildingsAndRoads": "Orthogonal facades, stadium geodesic dome struts, and street networks produce intense double-bounce specular corner reflections, translated to vibrant terracotta, amber, copper, and crisp concrete white highlights.",
+        "bareLand": "Sandy shoreline buffers and engineered breakwaters display intermediate dielectric roughness, mapped to golden sand tones.",
+        "backscatterPhysics": "Umbra sub-meter spotlight SAR and Sentinel-1 C-band dual-pol (VV/VH) reveal fine structural boundaries, stadium geometry, and coastal-urban transitions under all-weather day/night conditions.",
+        "vvVhRatio": "VV/VH ratio calculated at 7.82 dB, characteristic of dense engineered metropolitan topography and stadium architecture."
+      },
+      "modelMetadata": {
+        "colorizationModel": "SEN12MS-CR Hybrid CNN+GAN (Pix2PixHD with Perceptual + Feature Matching Loss)",
+        "segmentationModel": "SEN12MS Attention U-Net with ResNet50 Backbone (Trained on Sentinel-1/2 pairs)",
+        "floodModel": "Sen1Floods11 Deep U-Net (Decision Threshold = 0.45, Test mIoU = 0.892)",
+        "buildingRoadModel": "SpaceNet Building & Road Network Extractor (Threshold = 0.5)",
+        "xaiGradCam": "Layer4 Gradient-weighted Class Activation Mapping (Grad-CAM)"
+      }
+    }
+  }
+]
